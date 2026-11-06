@@ -1,4 +1,5 @@
 
+
 const search = document.getElementById("pesquisa");
 
 // o 'click' e o 'input' sao eventos, ou seja , açoes especificas usadas no addEventListener com suas proprias finalidades
@@ -48,5 +49,6 @@ search.addEventListener('input',function(){
         
             })
 })
+
 
 
