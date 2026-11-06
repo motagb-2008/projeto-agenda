@@ -1,0 +1,55 @@
+.cabecalho{
+    display: flex;
+    align-items: center; justify-content: space-between; 
+    border: solid black 2px;
+    padding-left: 50px;padding-right: 100px;
+    background-color: aquamarine;
+}
+
+/* .pesquisa{
+    position: absolute;
+    left: 40%; top:38px;
+} */
+
+input[type="search"]{
+   width: 500px;padding: 10px 30px 10px 50px;
+   border:solid black 1px ; border-radius: 5px; 
+  background-color: #D3D3D3;margin-right: 50px;
+}
+
+.lupa{
+    position: relative;
+    height: 22px; width: 22px;
+    left: 35px; top: 6px; 
+}
+
+nav{
+   display: flex; flex-direction: column;
+    border: 2px solid black;
+    height: 400px; width: 200px; 
+    gap:100px
+    
+}
+.sidebar{
+   display: flex; justify-content: center;
+   gap:30px; border: solid blue 1px;
+   padding: 10px; margin: 10px 17px;
+   border-radius: 8px; cursor: pointer;
+}
+.icons{
+    height: 20px;width: 20px;
+}
+a{
+    font-size: large;
+}
+.corpo_principal{
+display: flex;
+}
+.conteudo_main{
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#main{
+    white-space: pre-line;
+}
